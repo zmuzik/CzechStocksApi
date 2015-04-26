@@ -1,0 +1,9 @@
+* 10-16 * * 1-5 /home/zb/csapi/api/get_current_quotes.sh
+16-59 9 * * 1-5 /home/zb/csapi/api/get_current_quotes.sh
+
+*/3 10-16 * * 1-5 /home/zb/csapi/api/get_todays_quotes.sh
+16-59/3 9 * * 1-5 /home/zb/csapi/api/get_todays_quotes.sh
+
+35 17 * * 1-5 /home/zb/csapi/api/get_closing_quotes.sh
+30 19 * * 1-5 /home/zb/csapi/api/get_historical_quotes.sh
+32 19 * * 1-5 /home/zb/csapi/api/get_stock_details.sh

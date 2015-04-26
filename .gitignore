@@ -1,0 +1,7 @@
+data.db
+.idea
+venv
+.env
+
+csapi_uwsgi.sock
+csapi.pyc
