@@ -94,6 +94,9 @@ do
   values ('$isin', '$stockPrice', '$stockDelta', '$timeStr', '$stamp');" >> $sqlFile
 done
 
+echo "insert into current_quote (isin, price, delta, timeStr, stamp) \
+values ('CZ0009000089', 178.9, 0.0, '$timeStr', '$stamp');" >> $sqlFile
+
 echo "commit;" >> $sqlFile
 
 now=`date +"%Y-%m-%d %H:%M:%S"`
